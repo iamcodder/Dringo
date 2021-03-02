@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="danger">DİKKAT!</string>
+    <string name="okey">TAMAM</string>
+    <string name="policy">Lütfen dikkatli içiniz. TAMAMa tıklayarak Dringo oynamandan doğabilecek tüm sonuçların sorumluluğunu aldığını kabul edersin.\n
+            Bu oyunu oynarken istediğiniz içeceği içebilirsiniz. Su da olur, meyve suyu da.\n Hoşlanmadığınız bir soru olursa cevaplamak zorunda değilsiniz, geçebilirsiniz.\n
+        Arkadaşlarınızın ve kendinizin güvenliği için lütfen ölçüyü kaçırmayın ve ASLA alkollü araç kullanmayın! </string>
+    <string name="home_background_image">ana sayfa arka plan resmi</string>
+</resources>
