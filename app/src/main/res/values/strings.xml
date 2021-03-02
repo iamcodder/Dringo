@@ -6,4 +6,8 @@
             Bu oyunu oynarken istediğiniz içeceği içebilirsiniz. Su da olur, meyve suyu da.\n Hoşlanmadığınız bir soru olursa cevaplamak zorunda değilsiniz, geçebilirsiniz.\n
         Arkadaşlarınızın ve kendinizin güvenliği için lütfen ölçüyü kaçırmayın ve ASLA alkollü araç kullanmayın! </string>
     <string name="home_background_image">ana sayfa arka plan resmi</string>
+    <string name="english">İngilizce</string>
+    <string name="turkish">Türkçe</string>
+    <string name="german">Almanca</string>
+    <string name="select_language">Dilini Seç</string>
 </resources>
