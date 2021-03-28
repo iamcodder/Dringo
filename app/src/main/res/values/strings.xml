@@ -10,4 +10,5 @@
     <string name="turkish">Türkçe</string>
     <string name="german">Almanca</string>
     <string name="select_language">Dilini Seç</string>
+    <string name="input_name">İsim Giriniz</string>
 </resources>

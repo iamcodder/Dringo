@@ -11,7 +11,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
-import com.iamcodder.myapplication.ui.theme.PurpleBackground
+import com.iamcodder.myapplication.ui.theme.CustomColors
 
 @Composable
 fun SplashScreen() {
@@ -24,7 +24,7 @@ fun Background(modifier: Modifier = Modifier) {
     Column(
         modifier = modifier
             .fillMaxSize()
-            .background(color = PurpleBackground),
+            .background(color = CustomColors.PurpleBackground),
         verticalArrangement = Arrangement.SpaceEvenly
     ) {
         Image(

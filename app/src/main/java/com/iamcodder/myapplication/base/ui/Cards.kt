@@ -13,9 +13,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.unit.dp
-import com.iamcodder.myapplication.ui.theme.Green500
-import com.iamcodder.myapplication.ui.theme.Grey700
-import com.iamcodder.myapplication.ui.theme.Grey800
+import com.iamcodder.myapplication.ui.theme.CustomColors
 
 @Composable
 fun BaseCard(
@@ -29,7 +27,7 @@ fun BaseCard(
             .fillMaxWidth(0.8f)
             .padding(16.dp)
             .clip(RoundedCornerShape(percent = 10))
-            .border(1.dp, Grey700, RoundedCornerShape(percent = 10))
+            .border(1.dp, CustomColors.Grey700, RoundedCornerShape(percent = 10))
             .shadow(6.dp),
     ) {
         Column {
@@ -37,13 +35,13 @@ fun BaseCard(
                 modifier = modifier
                     .fillMaxWidth()
                     .height(80.dp)
-                    .background(Grey800),
+                    .background(CustomColors.Grey800),
                 verticalAlignment = Alignment.CenterVertically,
                 horizontalArrangement = Arrangement.Center
             ) {
                 Text(
                     text = cardTitle,
-                    color = Green500,
+                    color = CustomColors.Green500,
                     style = MaterialTheme.typography.h5
                 )
             }

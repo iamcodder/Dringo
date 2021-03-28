@@ -1,4 +1,4 @@
-package com.iamcodder.myapplication.data.local.enum
+package com.iamcodder.myapplication.data.local.enums
 
 enum class LanguageEnums {
     TURKISH,

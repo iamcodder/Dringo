@@ -24,8 +24,8 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.iamcodder.myapplication.R
 import com.iamcodder.myapplication.base.ui.BaseCard
-import com.iamcodder.myapplication.data.local.enum.LanguageEnums
-import com.iamcodder.myapplication.ui.theme.Grey600
+import com.iamcodder.myapplication.data.local.enums.LanguageEnums
+import com.iamcodder.myapplication.ui.theme.CustomColors
 
 @Preview
 @Composable
@@ -127,7 +127,7 @@ fun CircleImage(modifier: Modifier = Modifier, imageRes: Int, contentDescription
         modifier = modifier
             .size(50.dp)
             .clip(CircleShape)
-            .border(1.dp, Grey600, CircleShape),
+            .border(1.dp, CustomColors.Grey600, CircleShape),
         painter = painterResource(id = imageRes),
         contentDescription = contentDescription,
         contentScale = ContentScale.None
